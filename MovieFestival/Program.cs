@@ -5,7 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hi!");
+
+        string genre = new Genre("Drama").GetData();
+
+        Console.WriteLine("Hi!" + genre);
     }
 }
 
