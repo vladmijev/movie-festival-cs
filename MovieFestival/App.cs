@@ -4,7 +4,10 @@ class App
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hi!");
+
+        string drama = new Genre("Drama").GetData();
+
+        Console.WriteLine(drama);
     }
 }
 
