@@ -4,7 +4,8 @@ class App
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hi!");
+        var gener = new Genre("Daadaaa").GetData();
+        Console.WriteLine(gener);
     }
 }
 
