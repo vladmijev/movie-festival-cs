@@ -13,8 +13,9 @@ public class Genre
 
     public string GetData()
     {
-        return Name[0] + " " + Name[Name.Length - 1];
+        // make this uppercase
+        string genre = Name[0] + "" + Name[Name.Length - 1];
+        return genre.ToUpper();
     }
-
 
 }
